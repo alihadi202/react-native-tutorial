@@ -1,6 +1,8 @@
 # Welcome to my react-native-project
 
 i am following a tutorial u can find it [here](https://www.youtube.com/watch?v=f8Z9JyB2EIE&t=4232s)
+
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
