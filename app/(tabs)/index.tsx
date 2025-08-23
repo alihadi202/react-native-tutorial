@@ -52,11 +52,12 @@ const Index = () => {
       <FlatList
         data={movies}
         keyExtractor={(item) => item.id.toString()}
-        numColumns={3}
+        numColumns={2}
         columnWrapperStyle={{
           justifyContent:'flex-start',
           gap:20,
-          paddingRight:5,
+          paddingRight:0,
+          paddingLeft:12,
           marginBottom:10
         }}
         className='mt-2 pb-32'
@@ -69,6 +70,8 @@ const Index = () => {
             <SearchBar
               onPress={() => router.push('/search')}
               placeholder="Search for a movie"
+              value=''
+              onChangeText={()=>{}}
             />
             <Text className="text-lg text-white font-bold mt-5 mb-3">
               Latest Movies
